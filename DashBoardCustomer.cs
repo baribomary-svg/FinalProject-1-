@@ -16,5 +16,10 @@ namespace FinalProject
         {
             InitializeComponent();
         }
+
+        private void DashBoardCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
