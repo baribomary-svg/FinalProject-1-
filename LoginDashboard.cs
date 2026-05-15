@@ -8,11 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace FinalProject
 {
     public partial class LoginDashboard : Form
     {
+        string connectionString =
+            ConfigurationManager.ConnectionStrings["DB_FinalsProj"].ConnectionString;
         public LoginDashboard()
         {
             InitializeComponent();
@@ -29,9 +33,45 @@ namespace FinalProject
             register.Show();
             this.Hide();
 
+            try
+            {
+                using (SqlConnection conn =
+                    new SqlConnection(connectionString))
+                {
+                    conn.Open();
 
+                    string query =
+                    "INSERT INTO Users " +
+                    "(first_name, last_name, email, username, password, role) " +
+                    "OUTPUT INSERTED.user_ID " +
+                    "VALUES (@fname, @lname, @email, @username, @password, @role)";
+
+                    SqlCommand cmd =
+                        new SqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@fname", txtFirstName.Text);
+                    cmd.Parameters.AddWithValue("@lname", txtLastName.Text);
+                    cmd.Parameters.AddWithValue("@email", txtEmail.Text);
+                    cmd.Parameters.AddWithValue("@username", txtUserName.Text);
+                    cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+                    cmd.Parameters.AddWithValue("@role", "Customer");
+
+                    int generatedID =
+                        Convert.ToInt32(cmd.ExecuteScalar());
+
+                    string formattedID =
+                        "USR-" + generatedID.ToString("D3");
+
+                    MessageBox.Show(
+                        "Registered Successfully!\n\nUser ID: "
+                        + formattedID);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
-
 
         private void lblSignIn_Click(object sender, EventArgs e)
         {
