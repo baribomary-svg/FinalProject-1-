@@ -184,17 +184,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(14, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 24);
+            this.label3.Size = new System.Drawing.Size(53, 25);
             this.label3.TabIndex = 55;
             this.label3.Text = "Cart";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.pictureBox13);
             this.panel2.Controls.Add(this.bntLogout);
@@ -218,7 +218,7 @@
             // 
             this.bntLogout.BackColor = System.Drawing.Color.DarkGreen;
             this.bntLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntLogout.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntLogout.Location = new System.Drawing.Point(56, 476);
             this.bntLogout.Name = "bntLogout";
@@ -233,7 +233,7 @@
             // 
             this.bntInventory.BackColor = System.Drawing.Color.DarkGreen;
             this.bntInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntInventory.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntInventory.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntInventory.Location = new System.Drawing.Point(56, 409);
             this.bntInventory.Name = "bntInventory";
@@ -248,7 +248,7 @@
             // 
             this.bntProductss.BackColor = System.Drawing.Color.DarkGreen;
             this.bntProductss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntProductss.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntProductss.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntProductss.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntProductss.Location = new System.Drawing.Point(56, 342);
             this.bntProductss.Name = "bntProductss";
@@ -263,7 +263,7 @@
             // 
             this.bntTransaction.BackColor = System.Drawing.Color.DarkGreen;
             this.bntTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntTransaction.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntTransaction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntTransaction.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntTransaction.Location = new System.Drawing.Point(56, 272);
             this.bntTransaction.Name = "bntTransaction";
@@ -278,7 +278,7 @@
             // 
             this.bntPOS.BackColor = System.Drawing.Color.DarkGreen;
             this.bntPOS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntPOS.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntPOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntPOS.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntPOS.Location = new System.Drawing.Point(56, 203);
             this.bntPOS.Name = "bntPOS";
@@ -293,7 +293,7 @@
             // 
             this.bntDashboard.BackColor = System.Drawing.Color.DarkGreen;
             this.bntDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntDashboard.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntDashboard.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntDashboard.Location = new System.Drawing.Point(56, 135);
             this.bntDashboard.Name = "bntDashboard";
@@ -306,7 +306,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label1);
@@ -318,11 +318,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(895, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 16);
+            this.label1.Size = new System.Drawing.Size(82, 18);
             this.label1.TabIndex = 3;
             this.label1.Text = "Customer";
             // 
@@ -389,9 +389,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 109);
+            this.pictureBox1.Size = new System.Drawing.Size(268, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -410,12 +410,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1302, 630);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "CustomerAccount";
-            this.Text = "CustomerAccount";
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

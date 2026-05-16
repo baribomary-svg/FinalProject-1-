@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bntDashboard = new System.Windows.Forms.Button();
             this.bntPOS = new System.Windows.Forms.Button();
@@ -54,7 +55,6 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -75,11 +75,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(895, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 16);
+            this.label1.Size = new System.Drawing.Size(82, 18);
             this.label1.TabIndex = 3;
             this.label1.Text = "Customer";
             // 
@@ -95,8 +95,9 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(267, 0);
@@ -104,12 +105,23 @@
             this.panel1.Size = new System.Drawing.Size(1035, 49);
             this.panel1.TabIndex = 51;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(24, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(141, 29);
+            this.label2.TabIndex = 50;
+            this.label2.Text = "Dashboard";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 109);
+            this.pictureBox1.Size = new System.Drawing.Size(268, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -118,7 +130,7 @@
             // 
             this.bntDashboard.BackColor = System.Drawing.Color.OliveDrab;
             this.bntDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntDashboard.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntDashboard.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntDashboard.Location = new System.Drawing.Point(56, 135);
             this.bntDashboard.Name = "bntDashboard";
@@ -133,7 +145,7 @@
             // 
             this.bntPOS.BackColor = System.Drawing.Color.DarkGreen;
             this.bntPOS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntPOS.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntPOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntPOS.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntPOS.Location = new System.Drawing.Point(56, 203);
             this.bntPOS.Name = "bntPOS";
@@ -148,7 +160,7 @@
             // 
             this.bntTransaction.BackColor = System.Drawing.Color.DarkGreen;
             this.bntTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntTransaction.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntTransaction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntTransaction.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntTransaction.Location = new System.Drawing.Point(56, 272);
             this.bntTransaction.Name = "bntTransaction";
@@ -193,7 +205,7 @@
             // 
             this.bntProductss.BackColor = System.Drawing.Color.DarkGreen;
             this.bntProductss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntProductss.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntProductss.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntProductss.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntProductss.Location = new System.Drawing.Point(56, 342);
             this.bntProductss.Name = "bntProductss";
@@ -218,7 +230,7 @@
             // 
             this.bntInventory.BackColor = System.Drawing.Color.DarkGreen;
             this.bntInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntInventory.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntInventory.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntInventory.Location = new System.Drawing.Point(56, 409);
             this.bntInventory.Name = "bntInventory";
@@ -243,7 +255,7 @@
             // 
             this.bntLogout.BackColor = System.Drawing.Color.DarkGreen;
             this.bntLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntLogout.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bntLogout.Location = new System.Drawing.Point(56, 476);
             this.bntLogout.Name = "bntLogout";
@@ -266,7 +278,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.pictureBox13);
             this.panel2.Controls.Add(this.bntLogout);
@@ -281,6 +293,7 @@
             this.panel2.Controls.Add(this.bntPOS);
             this.panel2.Controls.Add(this.bntDashboard);
             this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(268, 631);
@@ -289,11 +302,14 @@
             // 
             // txtSearch
             // 
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtSearch.Location = new System.Drawing.Point(17, 43);
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(194, 27);
             this.txtSearch.TabIndex = 0;
+            this.txtSearch.Text = "Product Search";
             // 
             // bntSearch
             // 
@@ -310,6 +326,8 @@
             // 
             // cmbPicker
             // 
+            this.cmbPicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPicker.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.cmbPicker.FormattingEnabled = true;
             this.cmbPicker.Items.AddRange(new object[] {
             "2 Wheels",
@@ -318,8 +336,9 @@
             ""});
             this.cmbPicker.Location = new System.Drawing.Point(314, 47);
             this.cmbPicker.Name = "cmbPicker";
-            this.cmbPicker.Size = new System.Drawing.Size(114, 21);
+            this.cmbPicker.Size = new System.Drawing.Size(114, 23);
             this.cmbPicker.TabIndex = 2;
+            this.cmbPicker.Text = "Category Filter";
             // 
             // pictureBox9
             // 
@@ -363,7 +382,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.pictureBox12);
             this.panel3.Controls.Add(this.pictureBox11);
             this.panel3.Controls.Add(this.pictureBox10);
@@ -371,34 +390,22 @@
             this.panel3.Controls.Add(this.cmbPicker);
             this.panel3.Controls.Add(this.bntSearch);
             this.panel3.Controls.Add(this.txtSearch);
-            this.panel3.Location = new System.Drawing.Point(274, 84);
+            this.panel3.Location = new System.Drawing.Point(279, 84);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1016, 534);
             this.panel3.TabIndex = 53;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(274, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 29);
-            this.label2.TabIndex = 50;
-            this.label2.Text = "Dashboard";
             // 
             // CashierDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1302, 630);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "CashierDashboard";
-            this.Text = "Cashier/Staff Dashboard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -417,7 +424,6 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

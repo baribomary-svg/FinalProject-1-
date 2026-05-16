@@ -71,9 +71,14 @@ namespace FinalProject
 
         private void label5_Click(object sender, EventArgs e)
         {
-            LoginDashboard signup = new LoginDashboard();
+            LogIn signup = new LogIn();
             signup.Show();
             this.Hide();
+        }
+
+        private void bntSignIn_Click(object sender, EventArgs e)
+        {
+
         }
     }
     }
