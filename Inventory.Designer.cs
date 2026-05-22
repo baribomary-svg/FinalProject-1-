@@ -191,43 +191,47 @@
             // 
             // bntAddProduct
             // 
+            this.bntAddProduct.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bntAddProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntAddProduct.Location = new System.Drawing.Point(386, 783);
             this.bntAddProduct.Name = "bntAddProduct";
             this.bntAddProduct.Size = new System.Drawing.Size(170, 41);
             this.bntAddProduct.TabIndex = 62;
             this.bntAddProduct.Text = "Add Product";
-            this.bntAddProduct.UseVisualStyleBackColor = true;
+            this.bntAddProduct.UseVisualStyleBackColor = false;
             // 
             // bntUpdateStock
             // 
+            this.bntUpdateStock.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bntUpdateStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntUpdateStock.Location = new System.Drawing.Point(623, 783);
             this.bntUpdateStock.Name = "bntUpdateStock";
             this.bntUpdateStock.Size = new System.Drawing.Size(170, 41);
             this.bntUpdateStock.TabIndex = 63;
             this.bntUpdateStock.Text = "Update Product";
-            this.bntUpdateStock.UseVisualStyleBackColor = true;
+            this.bntUpdateStock.UseVisualStyleBackColor = false;
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(842, 783);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(170, 41);
             this.btnDelete.TabIndex = 64;
             this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(1069, 783);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 41);
             this.button1.TabIndex = 65;
             this.button1.Text = "Add Product";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -425,7 +429,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);

@@ -15,7 +15,8 @@ namespace FinalProject
         public CashierDashboard()
         {
             InitializeComponent();
-            
+
+
             btnDashboard.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
             btnDashboard.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
             btnDashboard.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
@@ -45,6 +46,7 @@ namespace FinalProject
             btnLogout.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
             btnLogout.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
             btnLogout.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
         }
 
         private void button1_Click(object sender, EventArgs e)

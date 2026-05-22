@@ -19,10 +19,14 @@ namespace FinalProject
 
             btnDashboard.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
             btnDashboard.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnDashboard.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
             btnDashboard.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
 
+           
 
         }
+
+
 
         private void button5_Click(object sender, EventArgs e)
         {

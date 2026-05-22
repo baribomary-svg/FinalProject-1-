@@ -340,7 +340,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Controls.Add(this.bntShopnow);
@@ -367,7 +367,6 @@
             // bntViewall
             // 
             this.bntViewall.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bntViewall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntViewall.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntViewall.ForeColor = System.Drawing.Color.Black;
             this.bntViewall.Location = new System.Drawing.Point(720, 649);
@@ -540,7 +539,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label14);

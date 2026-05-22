@@ -27,10 +27,7 @@ namespace FinalProject
 
             InitializeComponent();
 
-            btnCreateAccount.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
-            btnCreateAccount.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
-            btnCreateAccount.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
-            btnCreateAccount.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+        
 
             txtPassword.UseSystemPasswordChar = true;
             txtConfirm.UseSystemPasswordChar = true;

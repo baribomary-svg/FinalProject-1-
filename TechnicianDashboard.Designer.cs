@@ -52,11 +52,11 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnParts = new System.Windows.Forms.Button();
+            this.btnHistory = new System.Windows.Forms.Button();
+            this.btnRequest = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -309,80 +309,80 @@
             this.label12.TabIndex = 39;
             this.label12.Text = "Status";
             // 
-            // button1
+            // btnLogout
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(47, 411);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(200, 40);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Logout";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLogout.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLogout.Location = new System.Drawing.Point(47, 411);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnLogout.Size = new System.Drawing.Size(200, 40);
+            this.btnLogout.TabIndex = 21;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnParts
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkGreen;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.Location = new System.Drawing.Point(47, 344);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(200, 40);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Parts / Inventory";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnParts.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnParts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnParts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParts.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnParts.Location = new System.Drawing.Point(47, 344);
+            this.btnParts.Name = "btnParts";
+            this.btnParts.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnParts.Size = new System.Drawing.Size(200, 40);
+            this.btnParts.TabIndex = 19;
+            this.btnParts.Text = "Parts / Inventory";
+            this.btnParts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnParts.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnHistory
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkGreen;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(47, 278);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(200, 40);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "History";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnHistory.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnHistory.Location = new System.Drawing.Point(47, 278);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnHistory.Size = new System.Drawing.Size(200, 40);
+            this.btnHistory.TabIndex = 16;
+            this.btnHistory.Text = "History";
+            this.btnHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHistory.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnRequest
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkGreen;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.Location = new System.Drawing.Point(47, 210);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(200, 40);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Service Request";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnRequest.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnRequest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRequest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequest.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRequest.Location = new System.Drawing.Point(47, 210);
+            this.btnRequest.Name = "btnRequest";
+            this.btnRequest.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnRequest.Size = new System.Drawing.Size(200, 40);
+            this.btnRequest.TabIndex = 14;
+            this.btnRequest.Text = "Service Request";
+            this.btnRequest.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRequest.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnDashboard
             // 
-            this.button6.BackColor = System.Drawing.Color.OliveDrab;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button6.Location = new System.Drawing.Point(47, 145);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(200, 40);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Dashboard";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnDashboard.BackColor = System.Drawing.Color.OliveDrab;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnDashboard.Location = new System.Drawing.Point(47, 145);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnDashboard.Size = new System.Drawing.Size(200, 40);
+            this.btnDashboard.TabIndex = 3;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = false;
             // 
             // panel8
             // 
@@ -423,14 +423,14 @@
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel9.Controls.Add(this.pictureBox9);
             this.panel9.Controls.Add(this.pictureBox10);
-            this.panel9.Controls.Add(this.button1);
+            this.panel9.Controls.Add(this.btnLogout);
             this.panel9.Controls.Add(this.pictureBox11);
-            this.panel9.Controls.Add(this.button3);
+            this.panel9.Controls.Add(this.btnParts);
             this.panel9.Controls.Add(this.pictureBox12);
             this.panel9.Controls.Add(this.pictureBox13);
-            this.panel9.Controls.Add(this.button4);
-            this.panel9.Controls.Add(this.button5);
-            this.panel9.Controls.Add(this.button6);
+            this.panel9.Controls.Add(this.btnHistory);
+            this.panel9.Controls.Add(this.btnRequest);
+            this.panel9.Controls.Add(this.btnDashboard);
             this.panel9.Controls.Add(this.pictureBox14);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel9.Location = new System.Drawing.Point(0, 0);
@@ -530,7 +530,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel8);
@@ -593,11 +593,11 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.TextBox txtNotes;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnParts;
+        private System.Windows.Forms.Button btnHistory;
+        private System.Windows.Forms.Button btnRequest;
+        private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label13;

@@ -29,14 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RequestService));
-            this.button2 = new System.Windows.Forms.Button();
-            this.bntPartsInventory = new System.Windows.Forms.Button();
-            this.bntHistory = new System.Windows.Forms.Button();
-            this.bntServicerequest = new System.Windows.Forms.Button();
-            this.bntDashboard = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnParts = new System.Windows.Forms.Button();
+            this.btnHistory = new System.Windows.Forms.Button();
+            this.btnRequest = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -44,8 +41,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -53,130 +51,99 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button2
+            // btnLogout
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkGreen;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(47, 411);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(200, 40);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Logout";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnLogout.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLogout.Location = new System.Drawing.Point(47, 411);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnLogout.Size = new System.Drawing.Size(200, 40);
+            this.btnLogout.TabIndex = 21;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.UseVisualStyleBackColor = false;
             // 
-            // bntPartsInventory
+            // btnParts
             // 
-            this.bntPartsInventory.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntPartsInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntPartsInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntPartsInventory.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntPartsInventory.Location = new System.Drawing.Point(47, 344);
-            this.bntPartsInventory.Name = "bntPartsInventory";
-            this.bntPartsInventory.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntPartsInventory.Size = new System.Drawing.Size(200, 40);
-            this.bntPartsInventory.TabIndex = 19;
-            this.bntPartsInventory.Text = "Parts / Inventory";
-            this.bntPartsInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntPartsInventory.UseVisualStyleBackColor = false;
+            this.btnParts.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnParts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnParts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParts.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnParts.Location = new System.Drawing.Point(47, 344);
+            this.btnParts.Name = "btnParts";
+            this.btnParts.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnParts.Size = new System.Drawing.Size(200, 40);
+            this.btnParts.TabIndex = 19;
+            this.btnParts.Text = "Parts / Inventory";
+            this.btnParts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnParts.UseVisualStyleBackColor = false;
             // 
-            // bntHistory
+            // btnHistory
             // 
-            this.bntHistory.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntHistory.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntHistory.Location = new System.Drawing.Point(47, 278);
-            this.bntHistory.Name = "bntHistory";
-            this.bntHistory.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntHistory.Size = new System.Drawing.Size(200, 40);
-            this.bntHistory.TabIndex = 16;
-            this.bntHistory.Text = "History";
-            this.bntHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntHistory.UseVisualStyleBackColor = false;
+            this.btnHistory.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnHistory.Location = new System.Drawing.Point(47, 278);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnHistory.Size = new System.Drawing.Size(200, 40);
+            this.btnHistory.TabIndex = 16;
+            this.btnHistory.Text = "History";
+            this.btnHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHistory.UseVisualStyleBackColor = false;
             // 
-            // bntServicerequest
+            // btnRequest
             // 
-            this.bntServicerequest.BackColor = System.Drawing.Color.OliveDrab;
-            this.bntServicerequest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntServicerequest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntServicerequest.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntServicerequest.Location = new System.Drawing.Point(47, 210);
-            this.bntServicerequest.Name = "bntServicerequest";
-            this.bntServicerequest.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntServicerequest.Size = new System.Drawing.Size(200, 40);
-            this.bntServicerequest.TabIndex = 14;
-            this.bntServicerequest.Text = "Service Request";
-            this.bntServicerequest.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntServicerequest.UseVisualStyleBackColor = false;
+            this.btnRequest.BackColor = System.Drawing.Color.OliveDrab;
+            this.btnRequest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRequest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequest.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRequest.Location = new System.Drawing.Point(47, 210);
+            this.btnRequest.Name = "btnRequest";
+            this.btnRequest.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnRequest.Size = new System.Drawing.Size(200, 40);
+            this.btnRequest.TabIndex = 14;
+            this.btnRequest.Text = "Service Request";
+            this.btnRequest.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRequest.UseVisualStyleBackColor = false;
             // 
-            // bntDashboard
+            // btnDashboard
             // 
-            this.bntDashboard.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntDashboard.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntDashboard.Location = new System.Drawing.Point(47, 145);
-            this.bntDashboard.Name = "bntDashboard";
-            this.bntDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntDashboard.Size = new System.Drawing.Size(200, 40);
-            this.bntDashboard.TabIndex = 3;
-            this.bntDashboard.Text = "Dashboard";
-            this.bntDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntDashboard.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(268, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1156, 49);
-            this.panel1.TabIndex = 44;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1006, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(1042, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 18);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Customer";
+            this.btnDashboard.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnDashboard.Location = new System.Drawing.Point(47, 145);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnDashboard.Size = new System.Drawing.Size(200, 40);
+            this.btnDashboard.TabIndex = 3;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.btnLogout);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.bntPartsInventory);
+            this.panel2.Controls.Add(this.btnParts);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.bntHistory);
-            this.panel2.Controls.Add(this.bntServicerequest);
-            this.panel2.Controls.Add(this.bntDashboard);
+            this.panel2.Controls.Add(this.btnHistory);
+            this.panel2.Controls.Add(this.btnRequest);
+            this.panel2.Controls.Add(this.btnDashboard);
             this.panel2.Controls.Add(this.pictureBox8);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -244,10 +211,44 @@
             this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Location = new System.Drawing.Point(1042, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 18);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Customer";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1006, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(50)))), ((int)(((byte)(0)))));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(268, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1156, 49);
+            this.panel1.TabIndex = 44;
+            // 
             // RequestService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -255,9 +256,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RequestService";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -265,20 +263,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button bntPartsInventory;
-        private System.Windows.Forms.Button bntHistory;
-        private System.Windows.Forms.Button bntServicerequest;
-        private System.Windows.Forms.Button bntDashboard;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnParts;
+        private System.Windows.Forms.Button btnHistory;
+        private System.Windows.Forms.Button btnRequest;
+        private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -286,5 +284,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

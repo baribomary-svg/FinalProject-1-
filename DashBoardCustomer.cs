@@ -45,6 +45,7 @@ namespace FinalProject
             btnLogout.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
             btnLogout.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
             btnLogout.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
         }
 
         private void DashBoardCustomer_Load(object sender, EventArgs e)
