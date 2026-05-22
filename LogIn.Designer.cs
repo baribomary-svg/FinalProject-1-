@@ -45,19 +45,20 @@ namespace FinalProject
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.btnLogIn = new System.Windows.Forms.Button();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
             this.cmbRole = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.btnTogglePassword = new System.Windows.Forms.Button();
             this.btnToggleConfirm = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUserName
             // 
             this.txtUserName.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtUserName.Location = new System.Drawing.Point(104, 250);
+            this.txtUserName.Location = new System.Drawing.Point(111, 222);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(243, 20);
             this.txtUserName.TabIndex = 4;
@@ -68,7 +69,7 @@ namespace FinalProject
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(101, 288);
+            this.label2.Location = new System.Drawing.Point(109, 249);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 15);
             this.label2.TabIndex = 2;
@@ -80,7 +81,7 @@ namespace FinalProject
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(101, 231);
+            this.label1.Location = new System.Drawing.Point(108, 203);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 15);
             this.label1.TabIndex = 1;
@@ -90,7 +91,7 @@ namespace FinalProject
             // 
             this.txtPassword.BackColor = System.Drawing.SystemColors.Menu;
             this.txtPassword.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtPassword.Location = new System.Drawing.Point(104, 307);
+            this.txtPassword.Location = new System.Drawing.Point(112, 268);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(215, 20);
             this.txtPassword.TabIndex = 3;
@@ -99,18 +100,18 @@ namespace FinalProject
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(109, 23);
+            this.label4.Location = new System.Drawing.Point(121, 37);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(313, 46);
+            this.label4.Size = new System.Drawing.Size(257, 38);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Welcome Back!";
+            this.label4.Text = "Create Account";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::FinalProject.Properties.Resources._26199550_ada8_420e_8bf5_1c875b619a30;
-            this.pictureBox2.Location = new System.Drawing.Point(42, 17);
+            this.pictureBox2.Location = new System.Drawing.Point(46, 21);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(73, 54);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,7 +124,7 @@ namespace FinalProject
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(101, 335);
+            this.label5.Location = new System.Drawing.Point(110, 298);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 15);
             this.label5.TabIndex = 17;
@@ -133,7 +134,7 @@ namespace FinalProject
             // 
             this.txtConfirm.BackColor = System.Drawing.SystemColors.Menu;
             this.txtConfirm.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtConfirm.Location = new System.Drawing.Point(103, 353);
+            this.txtConfirm.Location = new System.Drawing.Point(112, 316);
             this.txtConfirm.Name = "txtConfirm";
             this.txtConfirm.Size = new System.Drawing.Size(215, 20);
             this.txtConfirm.TabIndex = 18;
@@ -144,7 +145,7 @@ namespace FinalProject
             this.lblSignIn.BackColor = System.Drawing.Color.Transparent;
             this.lblSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSignIn.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.lblSignIn.Location = new System.Drawing.Point(269, 436);
+            this.lblSignIn.Location = new System.Drawing.Point(280, 407);
             this.lblSignIn.Name = "lblSignIn";
             this.lblSignIn.Size = new System.Drawing.Size(47, 13);
             this.lblSignIn.TabIndex = 22;
@@ -157,7 +158,7 @@ namespace FinalProject
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(101, 90);
+            this.label6.Location = new System.Drawing.Point(109, 106);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(67, 15);
             this.label6.TabIndex = 23;
@@ -169,7 +170,7 @@ namespace FinalProject
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(101, 137);
+            this.label7.Location = new System.Drawing.Point(238, 106);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 15);
             this.label7.TabIndex = 24;
@@ -178,40 +179,40 @@ namespace FinalProject
             // txtFirstName
             // 
             this.txtFirstName.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtFirstName.Location = new System.Drawing.Point(104, 109);
+            this.txtFirstName.Location = new System.Drawing.Point(112, 125);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(243, 20);
+            this.txtFirstName.Size = new System.Drawing.Size(114, 20);
             this.txtFirstName.TabIndex = 25;
             // 
             // txtLastName
             // 
             this.txtLastName.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtLastName.Location = new System.Drawing.Point(104, 156);
+            this.txtLastName.Location = new System.Drawing.Point(241, 124);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(243, 20);
+            this.txtLastName.Size = new System.Drawing.Size(113, 20);
             this.txtLastName.TabIndex = 26;
             // 
             // txtEmail
             // 
             this.txtEmail.BackColor = System.Drawing.SystemColors.Menu;
-            this.txtEmail.Location = new System.Drawing.Point(104, 203);
+            this.txtEmail.Location = new System.Drawing.Point(111, 175);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(243, 20);
             this.txtEmail.TabIndex = 28;
             // 
-            // btnLogIn
+            // btnCreateAccount
             // 
-            this.btnLogIn.BackColor = System.Drawing.Color.DarkGreen;
-            this.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogIn.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLogIn.Location = new System.Drawing.Point(157, 395);
-            this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.Size = new System.Drawing.Size(117, 30);
-            this.btnLogIn.TabIndex = 11;
-            this.btnLogIn.Text = "Log In";
-            this.btnLogIn.UseVisualStyleBackColor = false;
-            this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
+            this.btnCreateAccount.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCreateAccount.Location = new System.Drawing.Point(175, 359);
+            this.btnCreateAccount.Name = "btnCreateAccount";
+            this.btnCreateAccount.Size = new System.Drawing.Size(117, 30);
+            this.btnCreateAccount.TabIndex = 11;
+            this.btnCreateAccount.Text = "Create Account";
+            this.btnCreateAccount.UseVisualStyleBackColor = false;
+            this.btnCreateAccount.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // cmbRole
             // 
@@ -233,7 +234,7 @@ namespace FinalProject
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(101, 184);
+            this.label8.Location = new System.Drawing.Point(108, 156);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 15);
             this.label8.TabIndex = 27;
@@ -245,11 +246,11 @@ namespace FinalProject
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(121, 436);
+            this.label9.Location = new System.Drawing.Point(149, 407);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(153, 13);
+            this.label9.Size = new System.Drawing.Size(132, 13);
             this.label9.TabIndex = 29;
-            this.label9.Text = "You have already an account?";
+            this.label9.Text = "Already have an account?";
             // 
             // btnTogglePassword
             // 
@@ -257,7 +258,7 @@ namespace FinalProject
             this.btnTogglePassword.FlatAppearance.BorderSize = 0;
             this.btnTogglePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTogglePassword.Image = ((System.Drawing.Image)(resources.GetObject("btnTogglePassword.Image")));
-            this.btnTogglePassword.Location = new System.Drawing.Point(322, 307);
+            this.btnTogglePassword.Location = new System.Drawing.Point(330, 268);
             this.btnTogglePassword.Name = "btnTogglePassword";
             this.btnTogglePassword.Size = new System.Drawing.Size(25, 20);
             this.btnTogglePassword.TabIndex = 30;
@@ -270,12 +271,24 @@ namespace FinalProject
             this.btnToggleConfirm.FlatAppearance.BorderSize = 0;
             this.btnToggleConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToggleConfirm.Image = ((System.Drawing.Image)(resources.GetObject("btnToggleConfirm.Image")));
-            this.btnToggleConfirm.Location = new System.Drawing.Point(322, 353);
+            this.btnToggleConfirm.Location = new System.Drawing.Point(331, 316);
             this.btnToggleConfirm.Name = "btnToggleConfirm";
             this.btnToggleConfirm.Size = new System.Drawing.Size(25, 20);
             this.btnToggleConfirm.TabIndex = 32;
             this.btnToggleConfirm.UseVisualStyleBackColor = false;
             this.btnToggleConfirm.Click += new System.EventHandler(this.btnToggleConfirm_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label10.Location = new System.Drawing.Point(125, 75);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(180, 13);
+            this.label10.TabIndex = 33;
+            this.label10.Text = "Fill in the details to get started";
             // 
             // LogIn
             // 
@@ -283,6 +296,7 @@ namespace FinalProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(484, 461);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.btnToggleConfirm);
             this.Controls.Add(this.btnTogglePassword);
             this.Controls.Add(this.label9);
@@ -299,7 +313,7 @@ namespace FinalProject
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnLogIn);
+            this.Controls.Add(this.btnCreateAccount);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -331,12 +345,13 @@ namespace FinalProject
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.Button btnLogIn;
+        private System.Windows.Forms.Button btnCreateAccount;
         private System.Windows.Forms.ComboBox cmbRole;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnTogglePassword;
         private System.Windows.Forms.Button btnToggleConfirm;
+        private System.Windows.Forms.Label label10;
     }
 }
 

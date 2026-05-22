@@ -15,9 +15,50 @@ namespace FinalProject
         public Products()
         {
             InitializeComponent();
+
+            btnDashboard.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnDashboard.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnDashboard.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
+            btnDashboard.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
+            btnPOS.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnPOS.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnPOS.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
+            btnPOS.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
+            btnTransaction.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnTransaction.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnTransaction.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
+            btnTransaction.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
+            btnProducts.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnProducts.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnProducts.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
+            btnProducts.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
+            btnInventory.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnInventory.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnInventory.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
+            btnInventory.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
+            btnLogout.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnLogout.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnLogout.MouseDown += (s, e) => ((Button)s).BackColor = Color.FromArgb(40, 90, 40);
+            btnLogout.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
         {
 
         }

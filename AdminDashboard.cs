@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace FinalProject
         public AdminDashboard()
         {
             InitializeComponent();
+
+            btnDashboard.MouseEnter += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+            btnDashboard.MouseLeave += (s, e) => ((Button)s).BackColor = Color.DarkGreen;
+            btnDashboard.MouseUp += (s, e) => ((Button)s).BackColor = Color.OliveDrab;
+
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -26,5 +33,16 @@ namespace FinalProject
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

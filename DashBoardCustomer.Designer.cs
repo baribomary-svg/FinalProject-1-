@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashBoardCustomer));
-            this.bntHome = new System.Windows.Forms.Button();
-            this.bntProducts = new System.Windows.Forms.Button();
-            this.bntMycart = new System.Windows.Forms.Button();
-            this.bntOrders = new System.Windows.Forms.Button();
-            this.bntProfile = new System.Windows.Forms.Button();
-            this.bntLogoutt = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
+            this.btnMyCart = new System.Windows.Forms.Button();
+            this.btnOrders = new System.Windows.Forms.Button();
+            this.btnProfile = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
@@ -57,9 +57,15 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
@@ -72,100 +78,100 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
-            // bntHome
+            // btnHome
             // 
-            this.bntHome.BackColor = System.Drawing.Color.OliveDrab;
-            this.bntHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntHome.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntHome.Location = new System.Drawing.Point(56, 135);
-            this.bntHome.Name = "bntHome";
-            this.bntHome.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntHome.Size = new System.Drawing.Size(170, 41);
-            this.bntHome.TabIndex = 3;
-            this.bntHome.Text = "Home";
-            this.bntHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntHome.UseVisualStyleBackColor = false;
+            this.btnHome.BackColor = System.Drawing.Color.OliveDrab;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnHome.Location = new System.Drawing.Point(47, 145);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnHome.Size = new System.Drawing.Size(200, 40);
+            this.btnHome.TabIndex = 3;
+            this.btnHome.Text = "Home";
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.UseVisualStyleBackColor = false;
             // 
-            // bntProducts
+            // btnProducts
             // 
-            this.bntProducts.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntProducts.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntProducts.Location = new System.Drawing.Point(56, 203);
-            this.bntProducts.Name = "bntProducts";
-            this.bntProducts.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntProducts.Size = new System.Drawing.Size(170, 41);
-            this.bntProducts.TabIndex = 14;
-            this.bntProducts.Text = "Products";
-            this.bntProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntProducts.UseVisualStyleBackColor = false;
+            this.btnProducts.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProducts.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnProducts.Location = new System.Drawing.Point(47, 213);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnProducts.Size = new System.Drawing.Size(200, 40);
+            this.btnProducts.TabIndex = 14;
+            this.btnProducts.Text = "Products";
+            this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProducts.UseVisualStyleBackColor = false;
             // 
-            // bntMycart
+            // btnMyCart
             // 
-            this.bntMycart.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntMycart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntMycart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntMycart.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntMycart.Location = new System.Drawing.Point(56, 272);
-            this.bntMycart.Name = "bntMycart";
-            this.bntMycart.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntMycart.Size = new System.Drawing.Size(170, 41);
-            this.bntMycart.TabIndex = 16;
-            this.bntMycart.Text = "My Cart";
-            this.bntMycart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntMycart.UseVisualStyleBackColor = false;
+            this.btnMyCart.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnMyCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMyCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMyCart.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnMyCart.Location = new System.Drawing.Point(47, 282);
+            this.btnMyCart.Name = "btnMyCart";
+            this.btnMyCart.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnMyCart.Size = new System.Drawing.Size(200, 40);
+            this.btnMyCart.TabIndex = 16;
+            this.btnMyCart.Text = "My Cart";
+            this.btnMyCart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMyCart.UseVisualStyleBackColor = false;
             // 
-            // bntOrders
+            // btnOrders
             // 
-            this.bntOrders.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntOrders.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntOrders.Location = new System.Drawing.Point(56, 342);
-            this.bntOrders.Name = "bntOrders";
-            this.bntOrders.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntOrders.Size = new System.Drawing.Size(170, 41);
-            this.bntOrders.TabIndex = 19;
-            this.bntOrders.Text = "Orders";
-            this.bntOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntOrders.UseVisualStyleBackColor = false;
+            this.btnOrders.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrders.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnOrders.Location = new System.Drawing.Point(47, 352);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnOrders.Size = new System.Drawing.Size(200, 40);
+            this.btnOrders.TabIndex = 19;
+            this.btnOrders.Text = "Orders";
+            this.btnOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOrders.UseVisualStyleBackColor = false;
             // 
-            // bntProfile
+            // btnProfile
             // 
-            this.bntProfile.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntProfile.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntProfile.Location = new System.Drawing.Point(56, 409);
-            this.bntProfile.Name = "bntProfile";
-            this.bntProfile.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntProfile.Size = new System.Drawing.Size(170, 41);
-            this.bntProfile.TabIndex = 21;
-            this.bntProfile.Text = "Profile";
-            this.bntProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntProfile.UseVisualStyleBackColor = false;
+            this.btnProfile.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfile.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnProfile.Location = new System.Drawing.Point(47, 419);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnProfile.Size = new System.Drawing.Size(200, 40);
+            this.btnProfile.TabIndex = 21;
+            this.btnProfile.Text = "Profile";
+            this.btnProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProfile.UseVisualStyleBackColor = false;
             // 
-            // bntLogoutt
+            // btnLogout
             // 
-            this.bntLogoutt.BackColor = System.Drawing.Color.DarkGreen;
-            this.bntLogoutt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntLogoutt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntLogoutt.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bntLogoutt.Location = new System.Drawing.Point(56, 476);
-            this.bntLogoutt.Name = "bntLogoutt";
-            this.bntLogoutt.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.bntLogoutt.Size = new System.Drawing.Size(170, 41);
-            this.bntLogoutt.TabIndex = 23;
-            this.bntLogoutt.Text = "Logout";
-            this.bntLogoutt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bntLogoutt.UseVisualStyleBackColor = false;
+            this.btnLogout.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLogout.Location = new System.Drawing.Point(47, 486);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnLogout.Size = new System.Drawing.Size(200, 40);
+            this.btnLogout.TabIndex = 23;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogout.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -173,28 +179,28 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox13);
-            this.panel2.Controls.Add(this.bntLogoutt);
+            this.panel2.Controls.Add(this.btnLogout);
             this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Controls.Add(this.bntProfile);
+            this.panel2.Controls.Add(this.btnProfile);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.bntOrders);
+            this.panel2.Controls.Add(this.btnOrders);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.bntMycart);
-            this.panel2.Controls.Add(this.bntProducts);
-            this.panel2.Controls.Add(this.bntHome);
+            this.panel2.Controls.Add(this.btnMyCart);
+            this.panel2.Controls.Add(this.btnProducts);
+            this.panel2.Controls.Add(this.btnHome);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(-1, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(268, 862);
+            this.panel2.Size = new System.Drawing.Size(271, 862);
             this.panel2.TabIndex = 2;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(13, 484);
+            this.pictureBox3.Location = new System.Drawing.Point(16, 494);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 46;
             this.pictureBox3.TabStop = false;
@@ -202,9 +208,9 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(13, 214);
+            this.pictureBox13.Location = new System.Drawing.Point(16, 221);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox13.Size = new System.Drawing.Size(25, 25);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 24;
             this.pictureBox13.TabStop = false;
@@ -212,9 +218,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(13, 420);
+            this.pictureBox6.Location = new System.Drawing.Point(16, 427);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.Size = new System.Drawing.Size(25, 25);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 20;
             this.pictureBox6.TabStop = false;
@@ -222,9 +228,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(13, 353);
+            this.pictureBox5.Location = new System.Drawing.Point(16, 359);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 18;
             this.pictureBox5.TabStop = false;
@@ -232,9 +238,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 146);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 153);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
@@ -242,9 +248,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(13, 283);
+            this.pictureBox4.Location = new System.Drawing.Point(16, 289);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox4.Size = new System.Drawing.Size(25, 25);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -254,7 +260,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(268, 109);
+            this.pictureBox1.Size = new System.Drawing.Size(271, 109);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -334,7 +340,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.Gainsboro;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Controls.Add(this.bntShopnow);
@@ -343,9 +349,9 @@
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Location = new System.Drawing.Point(266, 48);
+            this.panel3.Location = new System.Drawing.Point(269, 48);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1042, 253);
+            this.panel3.Size = new System.Drawing.Size(1155, 253);
             this.panel3.TabIndex = 25;
             // 
             // pictureBox9
@@ -364,7 +370,7 @@
             this.bntViewall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntViewall.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntViewall.ForeColor = System.Drawing.Color.Black;
-            this.bntViewall.Location = new System.Drawing.Point(696, 577);
+            this.bntViewall.Location = new System.Drawing.Point(720, 649);
             this.bntViewall.Name = "bntViewall";
             this.bntViewall.Size = new System.Drawing.Size(168, 41);
             this.bntViewall.TabIndex = 39;
@@ -376,7 +382,7 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(273, 312);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(246, 33);
@@ -390,15 +396,16 @@
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Location = new System.Drawing.Point(266, 0);
+            this.panel1.ForeColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(269, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1158, 49);
+            this.panel1.Size = new System.Drawing.Size(1155, 49);
             this.panel1.TabIndex = 81;
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(859, 12);
+            this.pictureBox7.Location = new System.Drawing.Point(1005, 8);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(30, 30);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -410,7 +417,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(895, 18);
+            this.label1.Location = new System.Drawing.Point(1041, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 18);
             this.label1.TabIndex = 3;
@@ -427,29 +434,107 @@
             this.label11.Size = new System.Drawing.Size(0, 29);
             this.label11.TabIndex = 57;
             // 
-            // pictureBox11
+            // pictureBox12
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(1019, 382);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(224, 170);
-            this.pictureBox11.TabIndex = 84;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(673, 382);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(224, 170);
-            this.pictureBox10.TabIndex = 83;
-            this.pictureBox10.TabStop = false;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(347, 403);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(230, 183);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 85;
+            this.pictureBox12.TabStop = false;
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(324, 382);
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(686, 403);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(224, 170);
-            this.pictureBox8.TabIndex = 82;
+            this.pictureBox8.Size = new System.Drawing.Size(230, 183);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 86;
             this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(1027, 403);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(230, 183);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 87;
+            this.pictureBox10.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(804, 549);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(102, 13);
+            this.label7.TabIndex = 88;
+            this.label7.Text = "Voltmaster Pro 2";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(830, 562);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 13);
+            this.label8.TabIndex = 89;
+            this.label8.Text = "22,000";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(496, 562);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(45, 13);
+            this.label9.TabIndex = 91;
+            this.label9.Text = "22,000";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(470, 549);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(102, 13);
+            this.label10.TabIndex = 90;
+            this.label10.Text = "Voltmaster Pro 2";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(1170, 562);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 13);
+            this.label12.TabIndex = 93;
+            this.label12.Text = "22,000";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(1144, 549);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(102, 13);
+            this.label14.TabIndex = 92;
+            this.label14.Text = "Voltmaster Pro 2";
             // 
             // DashBoardCustomer
             // 
@@ -457,14 +542,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1424, 861);
-            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.bntViewall);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DashBoardCustomer";
@@ -484,9 +576,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -494,16 +586,16 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button bntHome;
-        private System.Windows.Forms.Button bntProducts;
-        private System.Windows.Forms.Button bntMycart;
+        private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.Button btnProducts;
+        private System.Windows.Forms.Button btnMyCart;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button bntOrders;
+        private System.Windows.Forms.Button btnOrders;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button bntProfile;
+        private System.Windows.Forms.Button btnProfile;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Button bntLogoutt;
+        private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel2;
@@ -521,8 +613,14 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label14;
     }
 }
